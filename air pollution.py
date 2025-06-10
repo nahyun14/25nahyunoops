@@ -1,12 +1,10 @@
-
 import streamlit as st
 import pandas as pd
 import plotly.express as px
 
 @st.cache_data
 def load_data():
-    df = pd.read_csv('global_air_pollution_dataset.csv')
-    return df
+    return pd.read_csv('global_air_pollution_dataset.csv')
 
 df = load_data()
 
