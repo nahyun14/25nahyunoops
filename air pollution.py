@@ -1,5 +1,4 @@
 
-df = pd.read_csv('global_air_pollution_dataset.csv')
 import streamlit as st
 import pandas as pd
 import plotly.express as px
